@@ -1,0 +1,58 @@
+#ma{
+    display: flex;
+    flex-direction: column;
+    height: 60px;   
+    color: white;
+    border: 0.1px solid rgb(139, 128, 199);
+}
+#top{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+#top ul{
+    display: flex;
+    flex-direction: row;
+}
+#top ul li{
+    margin-left: 0.6cm;
+    margin-right: 0.6cm;
+    list-style: none;
+}
+#bottom{
+    flex: 2;
+}
+img{
+    height: 60px;
+    width: 60px;
+}
+#right{
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+#right div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#right #w{
+    margin-right: 100px;
+}
+
+#left ul li:hover{
+    cursor: pointer;
+    color: orange;
+}
+#right div:hover{
+    cursor: pointer;
+}
+#left ul li select{
+   background-color: rgb(119, 24, 145);
+    color: white;
+}
+#right div img
+{
+ height: 25px;
+ width: 25px;
+}
